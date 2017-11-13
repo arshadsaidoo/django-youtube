@@ -1,7 +1,7 @@
 try:
     from django.conf.urls import patterns, url
 except ImportError:
-    from django.conf.urls.defaults import patterns, url
+    rom django.conf.urls import patterns, url, include
 
 urlpatterns = patterns('django_youtube.views',
     # list of the videos
